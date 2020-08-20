@@ -5,10 +5,6 @@ import { Link } from 'react-router-dom';
 
 function nav() {
 
-	const navStyle = {
-		color: 'white'
-	};
-
 	const navStyle1 = {
 		float: 'left'
 	};
@@ -19,15 +15,14 @@ function nav() {
    		<Link style={navStyle1} to='/' >
    		<img src={logo} className="App-logo" alt="logo" />
    		</Link>
-   		<Link className="btn btn-outline-light"  to='/about' >
-   		  <li>About</li>
+   		<Link className="btn btn-outline-light"  to='/demo' >
+   		  <li>Assignment-1</li>
    		</Link>
-   		<Link className="btn btn-outline-light"  to='/contact'>
-   		  <li>contact</li>
+		<Link className="btn btn-outline-light" to='main'>
+   		  <li>Assignment-2</li>
    		</Link>
-		<Link className="btn btn-outline-light" to="/adduser">Adduser</Link>
+
    		</ul>
-		
    </nav>
   );
 }

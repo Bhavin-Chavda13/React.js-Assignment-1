@@ -1,4 +1,8 @@
 
+.App {
+  text-align: center;
+}
+
 .App-logo {
   height: 8vmin;
   pointer-events: none;
@@ -17,6 +21,17 @@
     transform: rotate(360deg);
   }
 }
+.App-header {
+  background-color:white  ;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  font-style: oblique;
+}
+
 
 nav{
    display: flex;
@@ -24,7 +39,7 @@ nav{
    align-items: center;
    min-height: 10vh;
    background: black;
-   color: white;
+   color: cyan;
 
 }
 .nav-links{
@@ -39,6 +54,7 @@ nav{
 .not-found{
   position: fixed;
   top:0;
+  bottom: 0;
   width:100vw;
   height:100vh;
   background-color: white;
@@ -57,3 +73,4 @@ nav{
   color: white;
   text-align: center;
 }
+
