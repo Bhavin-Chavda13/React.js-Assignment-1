@@ -3,5 +3,15 @@ Router in React
 (1.)npm install react-router-dom
 
 Bootstrap in rect
+(1) npm add bootstrap
+(2)use scss using this command 
+  ->npm add node-sass -D
+ 
+  ->add js bootstrap cdn
+  ->add google fonts 
+  ->add material icons.
 
-(1) npm install react-bootstrap bootstrap
+(3)npm install redux react-redux firebase react-redux-firebase redux-firestore
+ 
+->create one project on firebase
+->add Databse on firebase
